@@ -60,6 +60,9 @@ font-family: 'Poppins', sans-serif;
 .col-md-6{
     width: 100%;
 }
+button{
+    color: white;
+}
 
 .single-about-txt .row{
     display: flex;
