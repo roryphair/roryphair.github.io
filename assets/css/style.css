@@ -37,6 +37,35 @@ font-family: 'Poppins', sans-serif;
 	-ms-box-sizing:border-box;
 	box-sizing:border-box;
 }
+.single-skill-content i{
+    font-size: 125px;
+    margin: 10px;
+}
+.single-skill-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.individual-skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.individual-skill h2{
+    font-size: 16px;
+    font-weight: bold;
+}
+.col-md-6{
+    width: 100%;
+}
+
+.single-about-txt .row{
+    display: flex;
+    justify-content: center;
+}
+
 body{
 	font-family: 'Poppins', sans-serif;
 	font-size:16px;
@@ -372,7 +401,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     
 }
 .skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+.single-skill-content{padding-top: 60px;}
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
