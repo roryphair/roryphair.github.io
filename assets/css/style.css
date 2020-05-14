@@ -58,7 +58,7 @@ font-family: 'Poppins', sans-serif;
 .isotope .row{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 .isotope .col-sm-4{
@@ -277,7 +277,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b90000;}
     content: " ";
     top:0;
     left:0;
-    background:rgba(31,44,108,.65);
+    background:rgba(21, 31, 83, 0.75);
     width:100%;
     height:100%;
 }
@@ -923,5 +923,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 @keyframes example {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
+}
+.contact-middle{
+    display: flex;
+    justify-content: center;
 }
 /*========================Thank you=================
