@@ -290,6 +290,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #b90000;}
     text-transform: uppercase;
     line-height: 1.5;
 }
+.reach-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reach-me h3{
+    font-size: 24px;
+}
 .header-text h2 span {color: #b90000;}
 .header-text p {
     color: #fff;
